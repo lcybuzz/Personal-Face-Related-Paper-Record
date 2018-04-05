@@ -1,6 +1,6 @@
 # Face parsing论文记录
 # Under construction！
-## Table of Contents
+# Table of Contents
 - [Deep Learning Methods](#deep-learning-methods)
 - [Classical Methods](#classical-methods)
 - [Datasets](#datasets)
@@ -8,7 +8,7 @@
 
 
 # Deep Learning Methods
-## *Hierarchical face parsing via deep learning*
+### *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
 **[Author]**   		[Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/),	[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
