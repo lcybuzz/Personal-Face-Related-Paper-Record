@@ -2,12 +2,11 @@
 # Under construction！
 ## Table of Contents
 - [Deep Learning Methods](#Deep-Learning-Methods)
-* [Invited Talks](#invited-talks)
-*. [Symposiums and Workshops](#symposiums-and-workshops)
-- [Orals and Spotlights](#orals-and-spotlights)
-- [Blogs and Podcasts](#blogs-and-podcasts)
+* [Classical Methods](#Classical-Methods)
+* [Datasets](#Datasets)
 
-## Deep Learning Methods
+
+# Deep Learning Methods
 ## *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
@@ -27,18 +26,18 @@
 4) 实验部分用IoU评价, 但是没与其它方法对比, 说服力略显不足; 数据是自行从landmark数据集中生成的分割图.
 
 ### *Face Parsing via Recurrent Propagation*
-**[Paper]**  Parsing via Recurrent Propagation
-**[Year]** BMVC 2017
-**[Author]**   	[Sifei Liu](https://www.sifeiliu.net/publication), [Jianping Shi](http://shijianping.me/), Ji Liang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) 
-**[Pages]** 
-**[Description]** 
+**[Paper]**  Parsing via Recurrent Propagation<Br>
+**[Year]** BMVC 2017<Br>
+**[Author]**   	[Sifei Liu](https://www.sifeiliu.net/publication), [Jianping Shi](http://shijianping.me/), Ji Liang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
 
 ### FC-CNN ★☆
-**[Paper]** Face Parsing via a Fully-Convolutional Continuous CRF Neural Network
-**[Year]** arXiv 1708
-**[Author]**   Lei Zhou, Zhi Liu, [Xiangjian He](https://www.uts.edu.au/staff/xiangjian.he)
-**[Pages]** 
-**[Description]** 
+**[Paper]** Face Parsing via a Fully-Convolutional Continuous CRF Neural Network<Br>
+**[Year]** arXiv 1708 <Br>
+**[Author]**   Lei Zhou, Zhi Liu, [Xiangjian He](https://www.uts.edu.au/staff/xiangjian.he) <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
 1) 粗读. 将CRF与CNN结合起来, 模型包括unary, pairwise和continuous CRF(C-CRF)三个子网络;
 2) C-CRF网络首先用superpixel pooling layer将unary和pairwise网络的pixel-level feaature转化为region-level feature. 目的是保留边界信息和保证同区域标注的一致性(?)
 3) 网络基于Caffe, 可以端到端训练. 未开源,可保持关注.
@@ -46,11 +45,11 @@
 # Classical Methods
 
 ### *Exemplar-Based* ★
-**[Paper]** Exemplar-Based Face Parsing
-**[Year]** CVPR 2013
-**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	
-**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/
-**[Description]** 
+**[Paper]** Exemplar-Based Face Parsing <Br>
+**[Year]** CVPR 2013 <Br>
+**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
+**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
+**[Description]**  <Br>
 	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
 
 # Datasets
