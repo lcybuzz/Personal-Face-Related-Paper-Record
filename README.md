@@ -3,7 +3,8 @@
 ## Table of Contents
 * [Deep Learning Methods](#Deep-Learning-Methods)
 * [Classical Methods](#Classical-Methods)
-* [Datasets](#Datasets)
+- [Datasets](#Datasets)
+* [Segments](#Segments)
 
 
 # Deep Learning Methods
