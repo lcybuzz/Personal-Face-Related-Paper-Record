@@ -4,16 +4,16 @@
 ## *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
-**[Author]**   		[Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/),	[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) 
-**[Pages]** 
-**[Description]** 
+**[Author]**   		[Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/),	[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
 
 ### Guided by Detected★
-**[Paper]** A CNN Cascade for Landmark Guided Semantic Part Segmentation
-**[Year]** ECCV 2016
-**[Author]**   	[Aaron S. Jackson](http://aaronsplace.co.uk/), [Michel Valstar](http://www.cs.nott.ac.uk/~pszmv/), 	[Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) 
-**[Pages]** http://aaronsplace.co.uk/papers/jackson2016guided/index.html 
-**[Description]** 
+**[Paper]** A CNN Cascade for Landmark Guided Semantic Part Segmentation <Br>
+**[Year]** ECCV 2016 <Br>
+**[Author]**   	[Aaron S. Jackson](http://aaronsplace.co.uk/), [Michel Valstar](http://www.cs.nott.ac.uk/~pszmv/), 	[Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
+**[Pages]** http://aaronsplace.co.uk/papers/jackson2016guided/index.html <Br>
+**[Description]** <Br>
 1) 提出一种用landmarks引导part segmentation的方法, 用pose-specific信息辅助分割, 分为landmark检测和分割两步;
 2) landmark detection: 先用一个FCN预测68个高斯状的landmarks(68个输出channel,每个channel对应1个2D Gaussian)
 3) segmentation: 将detection得到的68个channel加到输入图像上, 再用1个FCN完成分割. 这个的一个key aspect是验证集上的landmark localization error加到landmark真值上去生成2D Gaussian (没看懂他的理由???)
