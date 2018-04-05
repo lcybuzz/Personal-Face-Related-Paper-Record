@@ -1,9 +1,9 @@
 # Face parsing论文记录
 # Under construction！
 ## Table of Contents
-* [Deep Learning Methods](#deep-learning-methods)
-* [Classical Methods](#classical-methods)
-- [Datasets](#Datasets)
+- [Deep Learning Methods](#deep-learning-methods)
+- [Classical Methods](#classical-methods)
+- [Datasets](#datasets)
 - [Segments](#segments)
 - [Others](#others)
 
