@@ -2,8 +2,8 @@
 # Under construction！
 ## Table of Contents
 - [Deep Learning Methods](#Deep-Learning-Methods)
-- [Invited Talks](#invited-talks)
-- [Symposiums and Workshops](#symposiums-and-workshops)
+* [Invited Talks](#invited-talks)
+*. [Symposiums and Workshops](#symposiums-and-workshops)
 - [Orals and Spotlights](#orals-and-spotlights)
 - [Blogs and Podcasts](#blogs-and-podcasts)
 
