@@ -1,5 +1,12 @@
 # Face parsing论文记录
 # Under construction！
+## Table of Contents
+- [Deep Learning Methods](#Deep Learning Methods)
+- [Invited Talks](#invited-talks)
+- [Symposiums and Workshops](#symposiums-and-workshops)
+- [Orals and Spotlights](#orals-and-spotlights)
+- [Blogs and Podcasts](#blogs-and-podcasts)
+
 ## Deep Learning Methods
 ## *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
