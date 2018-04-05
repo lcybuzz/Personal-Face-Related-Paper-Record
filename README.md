@@ -1,4 +1,4 @@
-# Face parsing论文记录
+# Face parsing Paper Record
 # Under construction！
 # Table of Contents
 - [Deep Learning Methods](#deep-learning-methods)
@@ -15,6 +15,7 @@
 **[Pages]** <Br>
 **[Description]** <Br>
 
+
 ### Guided by Detected★
 **[Paper]** A CNN Cascade for Landmark Guided Semantic Part Segmentation <Br>
 **[Year]** ECCV 2016 <Br>
@@ -25,6 +26,7 @@
 2) landmark detection: 先用一个FCN预测68个高斯状的landmarks(68个输出channel,每个channel对应1个2D Gaussian)
 3) segmentation: 将detection得到的68个channel加到输入图像上, 再用1个FCN完成分割. 这个的一个key aspect是验证集上的landmark localization error加到landmark真值上去生成2D Gaussian (没看懂他的理由???)
 4) 实验部分用IoU评价, 但是没与其它方法对比, 说服力略显不足; 数据是自行从landmark数据集中生成的分割图.
+
 
 ### *Face Parsing via Recurrent Propagation*
 **[Paper]**  Parsing via Recurrent Propagation<Br>
@@ -52,6 +54,7 @@
 **[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
 **[Description]**  <Br>
 	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
+
 
 # Datasets
 ## Segments
