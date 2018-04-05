@@ -1,11 +1,11 @@
 # Face parsing论文记录
 # Under construction！
 ## Table of Contents
-* [Deep Learning Methods](#Deep-Learning-Methods)
-* [Classical Methods](#Classical-Methods)
+* [Deep Learning Methods](#deep-learning-methods)
+* [Classical Methods](#classical-methods)
 - [Datasets](#Datasets)
-- [Segments](#Segments)
-- [Others](#Others)
+- [Segments](#segments)
+- [Others](#others)
 
 
 # Deep Learning Methods
@@ -58,7 +58,7 @@
 ## Segments
 http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/
 http://vis-www.cs.umass.edu/lfw/part_labels/
-## Others
+### Others
 http://vis-www.cs.umass.edu/lfw/
 http://www.ifp.illinois.edu/~vuongle2/helen/
 https://neerajkumar.org/databases/base/databases/lfpw/
