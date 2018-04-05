@@ -5,7 +5,7 @@
 * [Classical Methods](#Classical-Methods)
 - [Datasets](#Datasets)
 - [Segments](#Segments)
-- [Tutorials](#tutorials)
+- [Others](#tutorials)
 
 
 # Deep Learning Methods
