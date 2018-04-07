@@ -1,13 +1,18 @@
 # Face parsing Paper Record
 # Under construction！
 # Table of Contents
-- [Deep Learning Methods](#deep-learning-methods)
-- [Classical Methods](#classical-methods)
+- [Face Parsing](#face-parsing)
+	- [Deep Learning Methods](#deep-learning-methods)
+	- [Classical Methods](#classical-methods)
+- [Face Detection](#face-detection)
+	- [Deep Learning Methods](#deep-learning-methods)
+	- [Classical Methods](#classical-methods)
 - [Datasets](#datasets)
 
 
+# Face Parsing
 
-# Deep Learning Methods
+## Deep Learning Methods
 ### *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
@@ -45,7 +50,7 @@
 2) C-CRF网络首先用superpixel pooling layer将unary和pairwise网络的pixel-level feaature转化为region-level feature. 目的是保留边界信息和保证同区域标注的一致性(?)
 3) 网络基于Caffe, 可以端到端训练. 未开源,可保持关注.
 
-# Classical Methods
+## Classical Methods
 
 ### *Exemplar-Based* ★
 **[Paper]** Exemplar-Based Face Parsing <Br>
@@ -55,6 +60,18 @@
 **[Description]**  <Br>
 	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
 
+
+# Face Detection
+
+## Deep Learning Methods
+### *Hierarchical face parsing via deep learning*
+**[Paper]**  Hierarchical face parsing via deep learning<Br>
+**[Year]** CVPR 2012<Br>
+**[Author]**   		[Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/),	[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
+	
+## Classical Methods
 
 # Datasets
 ## Segments
