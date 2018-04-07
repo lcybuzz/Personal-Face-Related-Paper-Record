@@ -73,11 +73,11 @@
 
 # Datasets
 ## Segments
-http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/
-http://vis-www.cs.umass.edu/lfw/part_labels/
+http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
+http://vis-www.cs.umass.edu/lfw/part_labels/ <Br>
 ### Others
-http://vis-www.cs.umass.edu/lfw/
-http://www.ifp.illinois.edu/~vuongle2/helen/
-https://neerajkumar.org/databases/base/databases/lfpw/
-https://blog.csdn.net/chenriwei2/article/details/50631212
+http://vis-www.cs.umass.edu/lfw/ <Br>
+http://www.ifp.illinois.edu/~vuongle2/helen/ <Br>
+https://neerajkumar.org/databases/base/databases/lfpw/ <Br>
+https://blog.csdn.net/chenriwei2/article/details/50631212 <Br>
 
