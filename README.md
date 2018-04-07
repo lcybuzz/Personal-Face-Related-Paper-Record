@@ -1,18 +1,16 @@
 # Face parsing Paper Record
 # Under construction！
 # Table of Contents
-- [Face Parsing](#face-parsing)
-	- [Deep Learning Methods](#deep-learning-methods)
-	- [Classical Methods](#classical-methods)
-- [Face Detection](#face-detection)
-	- [Deep Learning Methods](#deep-learning-methods)
-	- [Classical Methods](#classical-methods)
+- [Deep Learning Methods](#deep-learning-methods)
+	- [Face Parsing](#face-parsing)
+	- [Face Detection](#face-detection)
+- [Classical Methods](#classical-methods)
 - [Datasets](#datasets)
 
+# Deep Learning Methods
 
-# Face Parsing
+## Face Parsing
 
-## Deep Learning Methods
 ### *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
@@ -61,17 +59,19 @@
 	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
 
 
-# Face Detection
+## Face Detection
 
-## Deep Learning Methods
-### *Hierarchical face parsing via deep learning*
-**[Paper]**  Hierarchical face parsing via deep learning<Br>
-**[Year]** CVPR 2012<Br>
-**[Author]**   		[Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/),	[Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
-**[Pages]** <Br>
+### *MTCNN*
+**[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
+**[Year]** SPL 2016 <Br>
+**[Author]**   	[Kaipeng Zhang](http://kpzhang93.github.io/), Zhanpeng Zhang, Zhifeng Li, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
+**[Pages]** <Br> https://kpzhang93.github.io/MTCNN_face_detection_alignment/
 **[Description]** <Br>
-	
-## Classical Methods
+1) 以3个CNN级联的方式，完成coarse到fine的人脸检测和对齐;
+2) 三个网络分别为Prposal(P)-Net, Refine(R)-Net和Output(O)-Net, 三个网络都是结构相似的小型CNN，总体速度较快;
+3) 网络的训练包括三个task: 人脸分类(是否是人脸的二分类问题), bounding box回归, landmark定位. 三个任务是分别取样本和训练的;
+4) 提出online hard sampling mining, 在一个mini-batch中对每个sample的loss排序, 只取loss由大到小前70%的sample参与back propagation
+
 
 # Datasets
 ## Segments
