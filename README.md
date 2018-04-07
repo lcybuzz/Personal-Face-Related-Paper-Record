@@ -48,17 +48,6 @@
 2) C-CRF网络首先用superpixel pooling layer将unary和pairwise网络的pixel-level feaature转化为region-level feature. 目的是保留边界信息和保证同区域标注的一致性(?)
 3) 网络基于Caffe, 可以端到端训练. 未开源,可保持关注.
 
-## Classical Methods
-
-### *Exemplar-Based* ★
-**[Paper]** Exemplar-Based Face Parsing <Br>
-**[Year]** CVPR 2013 <Br>
-**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
-**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
-**[Description]**  <Br>
-	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
-
-
 ## Face Detection
 
 ### *MTCNN*
@@ -72,6 +61,15 @@
 3) 网络的训练包括三个task: 人脸分类(是否是人脸的二分类问题), bounding box回归, landmark定位. 三个任务是分别取样本和训练的;
 4) 提出online hard sampling mining, 在一个mini-batch中对每个sample的loss排序, 只取loss由大到小前70%的sample参与back propagation
 
+# Classical Methods
+
+### *Exemplar-Based* ★
+**[Paper]** Exemplar-Based Face Parsing <Br>
+**[Year]** CVPR 2013 <Br>
+**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
+**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
+**[Description]**  <Br>
+	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
 
 # Datasets
 ## Segments
