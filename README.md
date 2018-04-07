@@ -50,7 +50,7 @@
 
 ## Face Detection
 
-### *MTCNN*
+### MTCNN
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
 **[Year]** SPL 2016 <Br>
 **[Author]**   	[Kaipeng Zhang](http://kpzhang93.github.io/), Zhanpeng Zhang, Zhifeng Li, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
