@@ -69,7 +69,7 @@
 **[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
 **[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
 **[Description]**  <Br>
-	1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
+1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
 
 # Datasets
 ## Segments
