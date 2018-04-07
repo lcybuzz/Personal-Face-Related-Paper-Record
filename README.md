@@ -54,7 +54,7 @@
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
 **[Year]** SPL 2016 <Br>
 **[Author]**   	[Kaipeng Zhang](http://kpzhang93.github.io/), Zhanpeng Zhang, Zhifeng Li, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
-**[Pages]** <Br> https://kpzhang93.github.io/MTCNN_face_detection_alignment/
+**[Pages]**  https://kpzhang93.github.io/MTCNN_face_detection_alignment/ <Br>
 **[Description]** <Br>
 1) 以3个CNN级联的方式，完成coarse到fine的人脸检测和对齐;
 2) 三个网络分别为Prposal(P)-Net, Refine(R)-Net和Output(O)-Net, 三个网络都是结构相似的小型CNN，总体速度较快;
