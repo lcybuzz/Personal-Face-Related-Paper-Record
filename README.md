@@ -18,8 +18,17 @@
 **[Pages]** <Br>
 **[Description]** <Br>
 
+### MO-GC ★
+**[Paper]**  Multi-Objective Convolutional Learning for Face Labeling<Br>
+**[Year]** CVPR 2015<Br>
+**[Author]** [Sifei Liu](https://www.sifeiliu.net/), [Jimei Yang](https://eng.ucmerced.edu/people/jyang44), Chang Huang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
+**[Pages]** https://www.sifeiliu.net/face-parsing <Br>
+**[Description]** <Br>
+1) 模拟CRF, 提出一种用多个目标函数优化一个CNN的人脸解析方法. 一个loss针对unary label likehood, 一个loss针对pairwise label dependency;
+2) 提出一种nonparametric prior作为global regularization. 首先在脸部key point真值图像块上基于PCA建立一形状子空间, 测试时搜索与测试图像最相似的若干真值图像, 根据key point将真值图像与测试图像align，将几张aligned后的mask取平均作为prior;
+3) 在LFW和Helen上实验, 多目标函数的策略对精度有微小提升, nonparametric prior效果提升明显：
 
-### Guided by Detected★
+### Guided by Detected ★
 **[Paper]** A CNN Cascade for Landmark Guided Semantic Part Segmentation <Br>
 **[Year]** ECCV 2016 <Br>
 **[Author]**   	[Aaron S. Jackson](http://aaronsplace.co.uk/), [Michel Valstar](http://www.cs.nott.ac.uk/~pszmv/), 	[Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
@@ -34,7 +43,7 @@
 ### *Face Parsing via Recurrent Propagation*
 **[Paper]**  Parsing via Recurrent Propagation<Br>
 **[Year]** BMVC 2017<Br>
-**[Author]**   	[Sifei Liu](https://www.sifeiliu.net/publication), [Jianping Shi](http://shijianping.me/), Ji Liang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+**[Author]**   	[Sifei Liu](https://www.sifeiliu.net/), [Jianping Shi](http://shijianping.me/), Ji Liang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 **[Pages]** <Br>
 **[Description]** <Br>
 
@@ -50,7 +59,7 @@
 
 ## Face Detection
 
-### MTCNN
+### MTCNN ★☆
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
 **[Year]** SPL 2016 <Br>
 **[Author]**   	[Kaipeng Zhang](http://kpzhang93.github.io/), Zhanpeng Zhang, Zhifeng Li, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
@@ -75,7 +84,8 @@
 ## Segments
 http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
 http://vis-www.cs.umass.edu/lfw/part_labels/ <Br>
-### Others
+	
+## Others
 http://vis-www.cs.umass.edu/lfw/ <Br>
 http://www.ifp.illinois.edu/~vuongle2/helen/ <Br>
 https://neerajkumar.org/databases/base/databases/lfpw/ <Br>
