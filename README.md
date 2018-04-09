@@ -6,6 +6,8 @@
 	- [Face Detection](#face-detection)
 - [Classical Methods](#classical-methods)
 - [Datasets](#datasets)
+- [Librarys](#librarys)
+- [Resources-Lists](#resources-lists)
 
 # Deep Learning Methods
 
@@ -82,12 +84,19 @@
 
 # Datasets
 ## Segments
-http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
-http://vis-www.cs.umass.edu/lfw/part_labels/ <Br>
+Helen	http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
+LFW	http://vis-www.cs.umass.edu/lfw/part_labels/ <Br>
 	
 ## Others
-http://vis-www.cs.umass.edu/lfw/ <Br>
-http://www.ifp.illinois.edu/~vuongle2/helen/ <Br>
-https://neerajkumar.org/databases/base/databases/lfpw/ <Br>
+LFW	http://vis-www.cs.umass.edu/lfw/ <Br>
+Helen	http://www.ifp.illinois.edu/~vuongle2/helen/ <Br>
+LFPW	https://neerajkumar.org/databases/base/databases/lfpw/ <Br>
+http://www.face-rec.org/databases/ <Br>
+	
+# Librarys	
+libfacedetection	https://github.com/ShiqiYu/libfacedetection
+	
+# Resources-Lists	
 https://blog.csdn.net/chenriwei2/article/details/50631212 <Br>
+
 
