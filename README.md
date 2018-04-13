@@ -72,12 +72,14 @@
 3) 网络的训练包括三个task: 人脸分类(是否是人脸的二分类问题), bounding box回归, landmark定位. 三个任务是分别取样本和训练的;
 4) 提出online hard sampling mining, 在一个mini-batch中对每个sample的loss排序, 只取loss由大到小前70%的sample参与back propagation
 
-### SSH 
+### SSH ★★
 **[Paper]**  WIDER FACE: A Face Detection Benchmark<Br>
 **[Year]** ICCV 2017 <Br>
 **[Author]** [Mahyar Najibi](http://legacydirs.umiacs.umd.edu/~najibi/), [Pouya Samangouei](https://po0ya.github.io/), [Rama Chellappa](http://legacydirs.umiacs.umd.edu/~rama/), [Larry S. Davis](http://legacydirs.umiacs.umd.edu/~lsd/) <Br>
 **[Pages]** https://github.com/mahyarnajibi/SSH <Br>
 **[Description]** <Br>
+1) Single stage
+2) 
 
 # Classical Methods
 
