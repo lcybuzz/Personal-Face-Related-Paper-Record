@@ -78,8 +78,8 @@
 **[Author]** [Mahyar Najibi](http://legacydirs.umiacs.umd.edu/~najibi/), [Pouya Samangouei](https://po0ya.github.io/), [Rama Chellappa](http://legacydirs.umiacs.umd.edu/~rama/), [Larry S. Davis](http://legacydirs.umiacs.umd.edu/~lsd/) <Br>
 **[Pages]** https://github.com/mahyarnajibi/SSH <Br>
 **[Description]** <Br>
-1) Single stage
-2) 
+1) Single stage, no head of classification network<Br>
+2) Scale-invariant by design, detect faces from various depths<Br>
 
 # Classical Methods
 
