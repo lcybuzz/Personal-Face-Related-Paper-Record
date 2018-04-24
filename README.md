@@ -42,7 +42,7 @@
 4) 实验部分用IoU评价, 但是没与其它方法对比, 说服力略显不足; 数据是自行从landmark数据集中生成的分割图.
 
 ### CnnRnnGan ★
-**[Paper]**  End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networksn<Br>
+**[Paper]**  End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networks<Br>
 **[Year]** arXiv 1703<Br>
 **[Author]** [Umut Güçlü](http://guc.lu/), Yagmur Güçlütürk, Meysam Madadi, Sergio Escalera, Xavier Baró, Jordi González, Rob van Lier, Marcel van Gerven <Br>
 **[Pages]** https://github.com/umuguc (还没开源)<Br>
