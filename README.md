@@ -55,7 +55,7 @@
 **[Author]**   Lei Zhou, Zhi Liu, [Xiangjian He](https://www.uts.edu.au/staff/xiangjian.he) <Br>
 **[Pages]** <Br>
 **[Description]** <Br>
-1)将CRF与CNN结合起来, 模型包括unary, pairwise和continuous CRF(C-CRF)三个子网络; 网络基于Caffe, 可以端到端训练. 未开源,性能较好.<Br>
+1) 将CRF与CNN结合起来, 模型包括unary, pairwise和continuous CRF(C-CRF)三个子网络; 网络基于Caffe, 可以端到端训练. 未开源,性能较好.<Br>
 2) Unary net采用类似SegNet的结构. pairwise net将相邻像素的feature连接起来并用1*2和2*1的卷积得到其水平和垂直方向的相似的, 最后得到相似度矩阵.<Br>
 3) C-CRF网络首先用superpixel pooling layer将unary和pairwise网络的pixel-level feaature转化为region-level feature. 目的是保留边界信息和保证同区域标注的一致性(?). 再使用unary和pairwise的超像素特征构成目标能量函数.<Br>
 4) 介绍了一种端到端训练C-CRF的方法, 没细看.<Br>
