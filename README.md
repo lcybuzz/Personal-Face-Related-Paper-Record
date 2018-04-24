@@ -41,6 +41,15 @@
 3) segmentation: 将detection得到的68个channel加到输入图像上, 再用1个FCN完成分割. 这个的一个key aspect是验证集上的landmark localization error加到landmark真值上去生成2D Gaussian (没看懂他的理由???)
 4) 实验部分用IoU评价, 但是没与其它方法对比, 说服力略显不足; 数据是自行从landmark数据集中生成的分割图.
 
+### CnnRnnGan ★
+**[Paper]**  End-to-end semantic face segmentation with conditional random fields as convolutional, recurrent and adversarial networksn<Br>
+**[Year]** arXiv 1703<Br>
+**[Author]** [Umut Güçlü](http://guc.lu/), Yagmur Güçlütürk, Meysam Madadi, Sergio Escalera, Xavier Baró, Jordi González, Rob van Lier, Marcel van Gerven <Br>
+**[Pages]** https://github.com/umuguc (还没开源)<Br>
+**[Description]** <Br>
+1) 大致浏览. 本文提出了一个大杂烩, 将dilation, CRFasRNN, adversarial training整合到一end to end的框架中. 不过, 首先要检测landmark, 将landmark连接生成初始分割图, 再用landmark将输入图像和分割图与模板对齐.<Br>
+2) 效果较好, 但暂时未开源.<Br>
+3) 有一个问题没细看: 在Helen上实验时, 是分别训练了5个网络解析不同类别吗??<Br>
 
 ### *Face Parsing via Recurrent Propagation*
 **[Paper]**  Parsing via Recurrent Propagation<Br>
