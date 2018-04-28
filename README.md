@@ -51,12 +51,16 @@
 2) 效果较好, 但暂时未开源.<Br>
 3) 有一个问题没细看: 在Helen上实验时, 是分别训练了5个网络解析不同类别吗??<Br>
 
-### *Face Parsing via Recurrent Propagation*
+### RNN-G ★☆
 **[Paper]**  Parsing via Recurrent Propagation<Br>
 **[Year]** BMVC 2017<Br>
 **[Author]**   	[Sifei Liu](https://www.sifeiliu.net/), [Jianping Shi](http://shijianping.me/), Ji Liang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 **[Pages]** <Br>
 **[Description]** <Br>
+1) 提出一种coarse to fine的人脸解析方法, 第一阶段解析出皮肤, 头发和背景, 第二部解析facial components. CNN和RNN参数都较少, 因此速度很快. <Br>
+2) 第一阶段将CNN的hierarchical representation和RNN的label propagation结合起来. CNN有两个输出, 一个是feature map, 另一个是edge map. RNN考虑上下左右四个方向, 以feature map为输入, 并用edge map作为gate, 即边缘处两个node的联系应该小, 相同类别区域两个node联系应该大.<Br>
+3) 第二个阶段设计了eye/eyebrow, nose和mouth三个子网络, 根据landmark将五官crop成patch, 送入相应的网络进行解析. <Br>
+4) 本文也需要额外的landmark检测, 检测出的landmard用于将脸转正和crop五官. <Br>
 
 ### FC-CNN ★☆
 **[Paper]** Face Parsing via a Fully-Convolutional Continuous CRF Neural Network<Br>
@@ -72,7 +76,7 @@
 
 ## Face Detection
 
-### MTCNN ★☆
+### MTCNN ★★
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
 **[Year]** SPL 2016 <Br>
 **[Author]**   	[Kaipeng Zhang](http://kpzhang93.github.io/), Zhanpeng Zhang, Zhifeng Li, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
