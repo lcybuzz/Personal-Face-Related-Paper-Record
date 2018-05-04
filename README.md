@@ -96,6 +96,15 @@
 1) Single stage, no head of classification network<Br>
 2) Scale-invariant by design, detect faces from various depths<Br>
 
+## Landmark Detection
+
+### *Deep Convolutional Network Cascade for Facial Point Detection*
+**[Paper]**  Deep Convolutional Network Cascade for Facial Point Detection <Br>
+**[Year]** CVPR 2013 <Br>
+**[Author]** Yi Sun, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)<Br>
+**[Pages]** http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm <Br>
+**[Description]** <Br>
+
 # Classical Methods
 
 ### *Exemplar-Based* ★
