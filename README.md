@@ -68,11 +68,22 @@
 **[Author]**   Lei Zhou, Zhi Liu, [Xiangjian He](https://www.uts.edu.au/staff/xiangjian.he) <Br>
 **[Pages]** <Br>
 **[Description]** <Br>
-1) 将CRF与CNN结合起来, 模型包括unary, pairwise和continuous CRF(C-CRF)三个子网络; 网络基于Caffe, 可以端到端训练. 未开源,性能较好.<Br>
+1) 将CRF与CNN结合起来, CRF的思路应该是来源于MO-GC, 模型包括unary, pairwise和continuous CRF(C-CRF)三个子网络; 网络基于Caffe, 可以端到端训练. 未开源,性能较好.<Br>
 2) Unary net采用类似SegNet的结构. pairwise net将相邻像素的feature连接起来并用1*2和2*1的卷积得到其水平和垂直方向的相似的, 最后得到相似度矩阵.<Br>
 3) C-CRF网络首先用superpixel pooling layer将unary和pairwise网络的pixel-level feaature转化为region-level feature. 目的是保留边界信息和保证同区域标注的一致性(?). 再使用unary和pairwise的超像素特征构成目标能量函数.<Br>
 4) 介绍了一种端到端训练C-CRF的方法, 没细看.<Br>
 3) 貌似应该需要额外的方法得到超像素.<Br>
+
+### #Adaptive Receptive Fields# ★
+**[Paper]** Learning Adaptive Receptive Fields for Deep Image Parsing Network<Br>
+**[Year]** CVPR 2017 <Br>
+**[Author]**   Zhen Wei, Yao Sun, [Jinqiao Wang](http://www.nlpr.ia.ac.cn/iva/homepage/jqwang/index.htm), Hanjiang Lai, [Si Liu](http://liusi-group.com/people.html) <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
+1) 提出学习一个参数f, 对feature map进行缩放, 从而自适应地改变感受野大小. <Br>
+2) 设计一个multi-path模型, 为打破各支路的均衡性, 使用了loss guidance, 即对某一支加大某些类的权重, 如把类别分为{eye, eyebrow}和{nose, lip, mouth}两组, 用起分别对不同支路加权. 这样能引导各个分支学习到适合分割特定目标的感受野. <Br>
+3) loss guidance的思路可以借鉴, 但从结果来看多个支路的精度反而不如单支路的... <Br>
+4) 在一个数据集学到的参数f, 应该是只适应于当前任务, 感觉不太适用于模型迁移? <Br>
 
 ## Face Detection
 
