@@ -8,6 +8,7 @@
 - [Landmark Detection](#landmark-detection)
 - [Applications](#application)
 	- [Face Swapping](#face-swapping)
+	- [3D](#3d)
 - [Datasets](#datasets)
 - [Librarys](#librarys)
 - [Resources-Lists](#resources-lists)
