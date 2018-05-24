@@ -111,7 +111,7 @@
 4) 提出online hard sampling mining, 在一个mini-batch中对每个sample的loss排序, 只取loss由大到小前70%的sample参与back propagation
 
 ### SSH ★★
-**[Paper]**  WIDER FACE: A Face Detection Benchmark<Br>
+**[Paper]** SSH: Single Stage Headless Face Detector<Br>
 **[Year]** ICCV 2017 <Br>
 **[Author]** [Mahyar Najibi](http://legacydirs.umiacs.umd.edu/~najibi/), [Pouya Samangouei](https://po0ya.github.io/), [Rama Chellappa](http://legacydirs.umiacs.umd.edu/~rama/), [Larry S. Davis](http://legacydirs.umiacs.umd.edu/~lsd/) <Br>
 **[Pages]** https://github.com/mahyarnajibi/SSH <Br>
