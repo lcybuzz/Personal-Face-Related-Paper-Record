@@ -1,18 +1,20 @@
-# Face parsing Paper Record
+# Face Related Paper Record
 # Under construction！
 # Table of Contents
-- [Deep Learning Methods](#deep-learning-methods)
-	- [Face Parsing](#face-parsing)
-	- [Face Detection](#face-detection)
-- [Classical Methods](#classical-methods)
+- [Face Parsing](#face-parsing)
+	- [Deep Learning Methods](#deep-learning-methods)
+	- [Classical Methods](#classical-methods)
+- [Face Detection](#face-detection)
+- [Landmark Detection](#landmark-detection)
+- [Applications](#application)
+	- [Face Swapping](#face-swapping)
 - [Datasets](#datasets)
 - [Librarys](#librarys)
 - [Resources-Lists](#resources-lists)
 
-# Deep Learning Methods
 
-## Face Parsing
-
+# Face Parsing
+## Deep Learning Methods
 ### *Hierarchical face parsing via deep learning*
 **[Paper]**  Hierarchical face parsing via deep learning<Br>
 **[Year]** CVPR 2012<Br>
@@ -85,7 +87,17 @@
 3) loss guidance的思路可以借鉴, 但从结果来看多个支路的精度反而不如单支路的... <Br>
 4) 在一个数据集学到的参数f, 应该是只适应于当前任务, 感觉不太适用于模型迁移? <Br>
 
-## Face Detection
+## Classical Methods
+
+### *Exemplar-Based* ★
+**[Paper]** Exemplar-Based Face Parsing <Br>
+**[Year]** CVPR 2013 <Br>
+**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
+**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
+**[Description]**  <Br>
+1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
+
+# Face Detection
 
 ### MTCNN ★★
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
@@ -107,7 +119,7 @@
 1) Single stage, no head of classification network<Br>
 2) Scale-invariant by design, detect faces from various depths<Br>
 
-## Landmark Detection
+# Landmark Detection
 
 ### CNN_FacePoint
 **[Paper]**  Deep Convolutional Network Cascade for Facial Point Detection <Br>
@@ -123,16 +135,32 @@
 **[Pages]** http://mmlab.ie.cuhk.edu.hk/projects/TCDCN.html <Br>
 **[Description]** <Br>
 
-# Classical Methods
+### 3DDFA
+**[Paper]**  Face Alignment Across Large Poses: A 3D Solution <Br>
+**[Year]** CVPR 2016 <Br>
+**[Author]** Hai Zhu, [Lei Zhen](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiaoming Liu](http://cvlab.cse.msu.edu/), [Hailin Shi](http://www.cbsr.ia.ac.cn/users/hailinshi/), [Stan Z Li](http://www.cbsr.ia.ac.cn/users/szli/)<Br>
+**[Pages]** http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm <Br>
+**[Description]** <Br>
 
-### *Exemplar-Based* ★
-**[Paper]** Exemplar-Based Face Parsing <Br>
-**[Year]** CVPR 2013 <Br>
-**[Author]**   [Brandon M. Smith](http://pages.cs.wisc.edu/~bmsmith/#), [Li Zhang](http://pages.cs.wisc.edu/~lizhang/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/)	 <Br>
-**[Pages]** http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
-**[Description]**  <Br>
-1) 粗读, 基于exemplar的人脸解析. 提供了一个基于Helen的人脸解析数据集
+# Applications
+## Face Swapping
+### *Face Swapping* 
+**[Paper]**  On Face Segmentation, Face Swapping, and Face Perception <Br>
+**[Year]** FG 2018 <Br>
+**[Author]** [Yuval Nirkin](http://nirkin.com/), [Iacopo Masi](http://www-bcf.usc.edu/~iacopoma/), [Anh Tuan Tran](https://sites.google.com/site/anhttranusc/), [Tal Hassner](https://www.openu.ac.il/home/hassner/), [Gerard Medioni](http://iris.usc.edu/people/medioni/index.html) <Br>
+**[Pages]** https://github.com/YuvalNirkin/face_swap <Br>
+**[Description]** <Br>
 
+## 3D
+### 3DMM
+**[Paper]**  Regressing Robust and Discriminative 3D Morphable Models with a very Deep Neural Network <Br>
+**[Year]** CVPR 2017 <Br>
+**[Author]** [Anh Tuan Tran](https://sites.google.com/site/anhttranusc/), [Tal Hassner](https://www.openu.ac.il/home/hassner/), [Iacopo Masi](http://www-bcf.usc.edu/~iacopoma/), [Iacopo Masi](http://www-bcf.usc.edu/~iacopoma/) <Br>
+**[Pages]** <Br>
+	https://www.openu.ac.il/home/hassner/projects/CNN3DMM/ <Br>
+	https://github.com/anhttran/3dmm_cnn <Br>
+**[Description]** <Br>
+	
 # Datasets
 ## Segments
 Helen	http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
