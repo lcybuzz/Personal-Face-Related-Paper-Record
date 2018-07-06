@@ -6,6 +6,7 @@
 	- [Classical Methods](#classical-methods)
 - [Face Detection](#face-detection)
 - [Landmark Detection](#landmark-detection)
+- [Others](#others)
 - [Applications](#application)
 	- [Face Swapping](#face-swapping)
 	- [3D](#3d)
@@ -143,6 +144,16 @@
 **[Pages]** http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm <Br>
 **[Description]** <Br>
 
+# Others
+### *CBN* 
+**[Paper]**  Deep Cascaded Bi-Network for Face Hallucination <Br>
+**[Year]** ECCV 2016 <Br>
+**[Author]** [Shizhan Zhu](https://zhusz.github.io/homepage/), [Sifei Liu](https://www.sifeiliu.net/publication), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
+**[Pages]** https://github.com/zhusz/ECCV16-CBN <Br>
+**[Description]** <Br>
+1) 大致浏览, 人脸增强类似于超分辨率重建, 但利用了人脸的结构信息. 设计了一gated deep bi-network, 一个分支是common branch即普通的残差预测网络, 一个分支是high-frequency branch利用dense field得到spatial cues. 若干个bi-network串接起来, 形成一逐层上采样的网络结构. <Br>
+2) dense field之前没接触过, 可以了解一下  <Br>
+	
 # Applications
 ## Face Swapping
 ### *Face Swapping* 
