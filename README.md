@@ -145,7 +145,7 @@
 **[Description]** <Br>
 
 # Others
-### CBN
+### CBN ★
 **[Paper]**  Deep Cascaded Bi-Network for Face Hallucination <Br>
 **[Year]** ECCV 2016 <Br>
 **[Author]** [Shizhan Zhu](https://zhusz.github.io/homepage/), [Sifei Liu](https://www.sifeiliu.net/publication), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
