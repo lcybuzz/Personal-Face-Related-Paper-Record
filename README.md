@@ -190,5 +190,6 @@ libfacedetection	https://github.com/ShiqiYu/libfacedetection
 	
 # Resources-Lists	
 https://blog.csdn.net/chenriwei2/article/details/50631212 <Br>
+https://github.com/betars/Face-Resources <Br>
 
 
