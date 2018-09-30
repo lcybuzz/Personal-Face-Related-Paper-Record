@@ -101,6 +101,20 @@
 
 # Face Detection
 
+### Cascade CNN
+**[Paper]**  A Convolutional Neural Network Cascade for Face Detection<Br>
+**[Year]** CVPR 2015 <Br>
+**[Author]**  [Haoxiang Li](http://haoxiang.org/academic-homepage/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Xiaohui Shen](http://users.eecs.northwestern.edu/~xsh835/), [Jonathan Brandt](https://research.adobe.com/person/jonathan-brandt/), [Gang Hua](http://www.ganghua.org/)  <Br>
+**[Pages]**  https://github.com/anson0910/CNN_face_detection (Unofficial) <Br>
+**[Description]** <Br>
+	
+### Faceness-Net
+**[Paper]** From Facial Parts Responses to Face Detection: A Deep Learning Approach<Br>
+**[Year]** ICCV 2015 <Br>
+**[Author]**  [Shuo Yang](http://shuoyang1213.me/), [Ping Luo](http://personal.ie.cuhk.edu.hk/~pluo/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
+**[Pages]**  http://shuoyang1213.me/projects/Faceness/Faceness.html <Br>
+**[Description]** <Br>	
+
 ### MTCNN ★★
 **[Paper]**  Joint Face Detection and Alignment Using Multitask Cascaded Convolutional Networks<Br>
 **[Year]** SPL 2016 <Br>
@@ -120,6 +134,13 @@
 **[Description]** <Br>
 1) Single stage, no head of classification network<Br>
 2) Scale-invariant by design, detect faces from various depths<Br>
+
+### Finding Tiny Faces
+**[Paper]** Finding Tiny Faces<Br>
+**[Year]** CVPR 2017 <Br>
+**[Author]** [Peiyun Hu](http://www.cs.cmu.edu/~peiyunh/), [Deva Ramanan](http://www.cs.cmu.edu/~deva/) <Br>
+**[Pages]** http://www.cs.cmu.edu/~peiyunh/tiny/index.html <Br>
+**[Description]** <Br>
 
 # Landmark Detection
 
@@ -142,6 +163,13 @@
 **[Year]** CVPR 2016 <Br>
 **[Author]** Hai Zhu, [Lei Zhen](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiaoming Liu](http://cvlab.cse.msu.edu/), [Hailin Shi](http://www.cbsr.ia.ac.cn/users/hailinshi/), [Stan Z Li](http://www.cbsr.ia.ac.cn/users/szli/)<Br>
 **[Pages]** http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm <Br>
+**[Description]** <Br>
+
+### Look at Boundary
+**[Paper]**  Look at Boundary: A Boundary-Aware Face Alignment Algorithm <Br>
+**[Year]** CVPR 2018 <Br>
+**[Author]** [Wayne Wu](https://wywu.github.io/), Chen Qian, [Shuo Yang](http://shuoyang1213.me/), Quan Wang, Yici Cai, Qiang Zhou<Br>
+**[Pages]** https://wywu.github.io/projects/LAB/LAB.html <Br>
 **[Description]** <Br>
 
 # Others
@@ -177,6 +205,7 @@
 ## Segments
 Helen	http://pages.cs.wisc.edu/~lizhang/projects/face-parsing/ <Br>
 LFW	http://vis-www.cs.umass.edu/lfw/part_labels/ <Br>
+Mut1ny 	http://www.mut1ny.com/face-headsegmentation-dataset <Br>
 	
 ## Others
 LFW	http://vis-www.cs.umass.edu/lfw/ <Br>
@@ -191,5 +220,6 @@ libfacedetection	https://github.com/ShiqiYu/libfacedetection
 # Resources-Lists	
 https://blog.csdn.net/chenriwei2/article/details/50631212 <Br>
 https://github.com/betars/Face-Resources <Br>
-
+https://blog.csdn.net/u011995719/article/details/78890333 <Br>
+https://www.jianshu.com/p/e4b9317a817f <Br>	
 
