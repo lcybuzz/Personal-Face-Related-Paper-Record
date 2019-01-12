@@ -6,6 +6,10 @@
 	- [Classical Methods](#classical-methods)
 - [Face Detection](#face-detection)
 - [Landmark Detection](#landmark-detection)
+  - ★★★ <Br>
+  - ★★ <Br>
+  **[LAB]** <Br>
+  - ★ <Br>
 - [Others](#others)
 - [Applications](#application)
 	- [Face Swapping](#face-swapping)
@@ -165,12 +169,15 @@
 **[Pages]** http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm <Br>
 **[Description]** <Br>
 
-### Look at Boundary
+### LAB ★★
 **[Paper]**  Look at Boundary: A Boundary-Aware Face Alignment Algorithm <Br>
 **[Year]** CVPR 2018 <Br>
 **[Author]** [Wayne Wu](https://wywu.github.io/), Chen Qian, [Shuo Yang](http://shuoyang1213.me/), Quan Wang, Yici Cai, Qiang Zhou<Br>
 **[Pages]** https://wywu.github.io/projects/LAB/LAB.html <Br>
 **[Description]** <Br>
+1) 利用边界信息和对抗训练做人脸关键点检测, 效果很好, 对大姿态表情鲁棒性较强. <Br>
+2) 模型由Boundary-Aware关键点回归, Boundary Heatmap预测和Landmark-Based Boundary Effectiveness Discriminator三部分组成. 关键点回归采用多级boundary heatmap融合策略; 边界heatmap预测的是像素到边界的距离, 并使用了[message passing](http://www.ee.cuhk.edu.hk/~xgwang/projectpage_structured_feature_pose.html)机制; 对抗训练部分使用一判别器判断boundary heatmap的有效性, 并为整个网络引入一对抗loss<Br>
+3) 开源了基于caffe的测试代码. 感觉方法的训练包括很多细节, 复现性能可能有些难度. <Br>
 
 # Others
 ### CBN ★
