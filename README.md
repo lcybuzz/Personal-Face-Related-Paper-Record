@@ -2,13 +2,25 @@
 # Under construction！
 # Table of Contents
 - [Face Parsing](#face-parsing)
-	- [Deep Learning Methods](#deep-learning-methods)
-	- [Classical Methods](#classical-methods)
+ - [Deep Learning Methods](#deep-learning-methods)
+  - ★★★ <Br>
+  - ★★ <Br>
+   **[MO-GC]**, **[Guided by Detected]** <Br>
+  - ★ <Br>
+	**[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**<Br>
+ - [Classical Methods](#classical-methods)
+  - ★★★ <Br>
+  - ★★ <Br>
+  - ★ <Br>
+	**[Exemplar-Based]**<Br>
 - [Face Detection](#face-detection)
+  - ★★★ <Br>
+  - ★★ <Br>
+  - ★ <Br>	
 - [Landmark Detection](#landmark-detection)
   - ★★★ <Br>
   - ★★ <Br>
-  **[LAB]**, **[DAN]** <Br>
+  **[MTCNN]**, **[SSH]** <Br>
   - ★ <Br>
 - [Others](#others)
 - [Applications](#application)
@@ -28,7 +40,7 @@
 **[Pages]** <Br>
 **[Description]** <Br>
 
-### MO-GC ★
+### MO-GC ★★
 **[Paper]**  Multi-Objective Convolutional Learning for Face Labeling<Br>
 **[Year]** CVPR 2015<Br>
 **[Author]** [Sifei Liu](https://www.sifeiliu.net/), [Jimei Yang](https://eng.ucmerced.edu/people/jyang44), Chang Huang, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
