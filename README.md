@@ -2,11 +2,11 @@
 # Under construction！
 # Table of Contents
 - [Face Parsing](#face-parsing)
- - [Deep Learning Methods](#deep-learning-methods)
-  - ★★★ <Br>
-  - ★★ <Br>
+  - [Deep Learning Methods](#deep-learning-methods)
+   - ★★★ <Br>
+   - ★★ <Br>
    **[MO-GC]**, **[Guided by Detected]** <Br>
-  - ★ <Br>
+   - ★ <Br>
 	**[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**<Br>
  - [Classical Methods](#classical-methods)
   - ★★★ <Br>
