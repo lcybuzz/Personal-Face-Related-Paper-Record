@@ -8,8 +8,8 @@
   	 **[MO-GC]**, **[Guided by Detected]** <Br>
   	- ★ <Br>
 	**[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**<Br>
- - [Classical Methods](#classical-methods)
-  - ★★★ <Br>
+  - [Classical Methods](#classical-methods)
+    - ★★★ <Br>
   - ★★ <Br>
   - ★ <Br>
 	**[Exemplar-Based]**<Br>
