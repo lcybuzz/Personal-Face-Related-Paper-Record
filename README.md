@@ -8,7 +8,7 @@
 - [Landmark Detection](#landmark-detection)
   - ★★★ <Br>
   - ★★ <Br>
-  **[LAB]** <Br>
+  **[LAB]**, **[DAN]** <Br>
   - ★ <Br>
 - [Others](#others)
 - [Applications](#application)
@@ -168,6 +168,18 @@
 **[Author]** Hai Zhu, [Lei Zhen](http://www.cbsr.ia.ac.cn/users/zlei/), [Xiaoming Liu](http://cvlab.cse.msu.edu/), [Hailin Shi](http://www.cbsr.ia.ac.cn/users/hailinshi/), [Stan Z Li](http://www.cbsr.ia.ac.cn/users/szli/)<Br>
 **[Pages]** http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm <Br>
 **[Description]** <Br>
+
+### DAN ★★
+**[Paper]**  Deep Alignment Network: A convolutional neural network for robust face alignment<Br>
+**[Year]** CVPRW 2017 <Br>
+**[Author]** [Marek Kowalski](https://github.com/MarekKowalski), [Jacek Naruniec](http://www.ire.pw.edu.pl/~jnaruniec/), [Tomasz Trzcinski](http://ii.pw.edu.pl/~ttrzcins/index-en.html)<Br>
+**[Pages]** <Br>
+	https://github.com/MarekKowalski/DeepAlignmentNetwork (Official, Theano)<Br>
+	https://github.com/zjjMaiMai/Deep-Alignment-Network-A-convolutional-neural-network-for-robust-face-alignment (TF) <Br>
+	https://github.com/mariolew/Deep-Alignment-Network-tensorflow (TF) <Br>
+**[Description]** <Br>
+1) 级联的人脸对齐方法, 思路简洁, 速度快. <Br>
+2) 每个stage的输入由三部分组成: 输入图像, 上一个stage的landmark heatmap和feature, 值得注意的是, 算法使用上阶段的landmark和标准脸计算变换矩阵, 并对三个输入做了对齐, 这使得算法对大姿态人脸有较好的鲁棒性. <Br>
 
 ### LAB ★★
 **[Paper]**  Look at Boundary: A Boundary-Aware Face Alignment Algorithm <Br>
