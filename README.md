@@ -10,8 +10,8 @@
 	**[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**<Br>
   - [Classical Methods](#classical-methods)
     - ★★★ <Br>
-  - ★★ <Br>
-  - ★ <Br>
+    - ★★ <Br>
+    - ★ <Br>
 	**[Exemplar-Based]**<Br>
 - [Face Detection](#face-detection)
   - ★★★ <Br>
