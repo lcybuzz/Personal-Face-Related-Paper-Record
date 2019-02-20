@@ -3,25 +3,9 @@
 # Table of Contents
 - [Face Parsing](#face-parsing)
   - [Deep Learning Methods](#deep-learning-methods)
-  	- ★★★ <Br>
-   	- ★★ <Br>
-  	 **[MO-GC]**, **[Guided by Detected]** <Br>
-  	- ★ <Br>
-	**[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**<Br>
   - [Classical Methods](#classical-methods)
-    - ★★★ <Br>
-    - ★★ <Br>
-    - ★ <Br>
-	**[Exemplar-Based]**<Br>
 - [Face Detection](#face-detection)
-  - ★★★ <Br>
-  - ★★ <Br>
-  - ★ <Br>	
 - [Landmark Detection](#landmark-detection)
-  - ★★★ <Br>
-  - ★★ <Br>
-  **[MTCNN]**, **[SSH]** <Br>
-  - ★ <Br>
 - [Others](#others)
 - [Applications](#application)
 	- [Face Swapping](#face-swapping)
@@ -29,8 +13,25 @@
 - [Datasets](#datasets)
 - [Librarys](#librarys)
 - [Resources-Lists](#resources-lists)
-
-
+	
+# Rank
+- Face Parsing
+  - ★★★ <Br>
+  - ★★ <Br>
+  **[MO-GC]**, **[Guided by Detected]** <Br>
+  - ★ <Br>
+  **[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**, **[Exemplar-Based]**<Br>
+- Face Detection
+  - ★★★ <Br>
+  - ★★ <Br>
+  **[MTCNN]**, **[SSH]** <Br>
+  - ★ <Br>	
+- Landmark Detection
+  - ★★★ <Br>
+  - ★★ <Br>
+  **[DAN]**, **[LAB]** <Br>
+  - ★ <Br>
+	
 # Face Parsing
 ## Deep Learning Methods
 ### *Hierarchical face parsing via deep learning*
