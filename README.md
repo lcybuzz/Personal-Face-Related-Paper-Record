@@ -53,7 +53,7 @@
 
 ### Guided by Detected ★★
 **[Paper]** A CNN Cascade for Landmark Guided Semantic Part Segmentation <Br>
-**[Year]** ECCV 2016 <Br>
+**[Year]** ECCV 2016 workshop <Br>
 **[Author]**   	[Aaron S. Jackson](http://aaronsplace.co.uk/), [Michel Valstar](http://www.cs.nott.ac.uk/~pszmv/), 	[Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
 **[Pages]** http://aaronsplace.co.uk/papers/jackson2016guided/index.html <Br>
 **[Description]** <Br>
