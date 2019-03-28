@@ -20,7 +20,7 @@
   - ★★ <Br>
   **[MO-GC]**, **[Guided by Detected]** <Br>
   - ★ <Br>
-  **[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**, **[Exemplar-Based]**<Br>
+  **[CnnRnnGan]**, **[RNN-G]**, **[FC-CNN]**, **[Adaptive Receptive Fields]**, **[Exemplar-Based]**, **[RED]**<Br>
 - Face Detection
   - ★★★ <Br>
   - ★★ <Br>
@@ -105,6 +105,15 @@
 2) 设计一个multi-path模型, 为打破各支路的均衡性, 使用了loss guidance, 即对某一支加大某些类的权重, 如把类别分为{eye, eyebrow}和{nose, lip, mouth}两组, 用起分别对不同支路加权. 这样能引导各个分支学习到适合分割特定目标的感受野. <Br>
 3) loss guidance的思路可以借鉴, 但从结果来看多个支路的精度反而不如单支路的... <Br>
 4) 在一个数据集学到的参数f, 应该是只适应于当前任务, 感觉不太适用于模型迁移? <Br>
+
+### RED ★
+**[Paper]** Residual Encoder Decoder Network and Adaptive Prior for Face Parsing <Br>
+**[Year]** AAAI 2018 <Br>
+**[Author]**   Tianchu Guo, Youngsung Kim, Hui Zhang, Deheng Qian, ByungIn Yoo, Jingtao Xu, Dongqing Zou, Jae-Joon Han, Changkyu Choi
+ <Br>
+**[Pages]** <Br>
+**[Description]** <Br>
+1) 基于DeconvNet网络结构的人脸解析方法, online计算先验. <Br>
 
 ## Classical Methods
 
